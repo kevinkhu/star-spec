@@ -1,7 +1,7 @@
 # star-spec
 Access large spectroscopic stellar parameter databases.
 
-The provided Jupyter Notebook accesses the [K2 stellar parameters database](https://ui.adsabs.harvard.edu/abs/2020ApJS..247...28H/abstract) and crossmatches it with the [APOGEE DR17](https://www.sdss4.org/dr17/irspec/), [GALAH DR3](https://www.galah-survey.org/dr3/overview/), and [LAMOST DR9](http://www.lamost.org/dr9/) stellar parameters databases.
+The provided Jupyter Notebook accesses the [K2 stellar parameters database](https://ui.adsabs.harvard.edu/abs/2020ApJS..247...28H/abstract) and crossmatches it with the [APOGEE DR17](https://www.sdss4.org/dr17/irspec/), [GALAH DR3](https://www.galah-survey.org/dr3/overview/), and [LAMOST DR9](http://www.lamost.org/dr9/) stellar parameters databases using Gaia DR3 IDs.
 
 The example sets some data quality cuts and extracts stellar temperature, surface gravity, and metallicity from each database. Seek out the spectroscopic database documentation and modify to include/exclude other parameters as you see fit.
 
